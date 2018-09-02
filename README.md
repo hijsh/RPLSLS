@@ -1,18 +1,16 @@
-# RPLSLS
+RPLSLS
 Rock-paper-scissors-lizard-Spock Game for Python
 
 
-# The key idea of this program is to equate the strings
-# "rock", "paper", "scissors", "lizard", "Spock" to numbers
-# as follows:
-#
-# 0 - rock
-# 1 - Spock
-# 2 - paper
-# 3 - lizard
-# 4 - scissors
-
-# helper functions
+The key idea of this program is to equate the strings
+"rock", "paper", "scissors", "lizard", "Spock" to numbers
+as follows:
+0 - rock
+1 - Spock
+2 - paper
+3 - lizard
+4 - scissors
+==========================================================================================================================
 import random
 def name_to_number(name):
     if name=='rock':
@@ -58,8 +56,7 @@ def rpsls(player_choice):
        print 'Computer wins!'
     # determine winner, print winner message
     print '\n'
-    
-# test your code - THESE CALLS MUST BE PRESENT IN YOUR SUBMITTED CODE
+==================================================================================================================    
 rpsls("rock")
 rpsls("Spock")
 rpsls("paper")
